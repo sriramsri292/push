@@ -1,0 +1,47 @@
+.animated-text {
+    display: inline-block;
+    animation: flowAnimation 2s infinite alternate;
+   color:darkslategrey;
+  }
+  
+  @keyframes flowAnimation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(10px); /* Adjust the vertical distance as needed */
+    }
+  }
+
+  .Hb{
+    margin-top: 5%;
+    margin-left:10%;
+  }
+  
+  .Ht{
+    font-weight:700;
+    font-size: 400%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .Htt{
+
+    color: grey;
+    font-family: initial;
+    font-size: 150%;
+
+  }
+
+  .Hi{
+    width: 60%;
+    animation: moveUpDown 2s infinite alternate;
+    
+  }
+  @keyframes moveUpDown {
+    from {
+      transform: translateY(5px);
+    }
+    to {
+      transform: translateY(30px); /* Adjust the vertical distance as needed */
+    }
+  }

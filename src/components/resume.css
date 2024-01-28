@@ -1,0 +1,48 @@
+.Ri{
+    width: 60%;
+    animation: moveUpDown 2s infinite alternate;
+    
+  }
+  @keyframes moveUpDown {
+    from {
+      transform: translateY(5px);
+    }
+    to {
+      transform: translateY(30px); /* Adjust the vertical distance as needed */
+    }
+  }
+
+  .Rt{
+
+    color:rgb(87, 83, 83);
+    font-family: initial;
+    font-size: 150%;
+    margin-top: 10%;
+    font-weight:500;
+
+  }
+  .Rtt{
+    color:gray;
+    font-family: initial;
+    font-size: 150%;
+    margin-top: 3%;
+    font-weight:300;
+  }
+
+  .Rb{
+width: 30%;
+height: 10%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 30px;
+background-color:rgb(99, 102, 102);
+color: antiquewhite;
+animation: moveUpDown 1s infinite alternate;
+  }
+  @keyframes moveUpDown {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(5px); /* Adjust the vertical distance as needed */
+    }
+  }

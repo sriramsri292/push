@@ -1,0 +1,65 @@
+.Aa{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.Ai{
+    width: 70%;
+    
+    animation: moveUpDown 2s infinite alternate;
+  
+    
+  }
+  @keyframes moveUpDown {
+    from {
+      transform: translateY(30px);
+    }
+    to {
+      transform: translateY(50px); /* Adjust the vertical distance as needed */
+    }
+  }
+
+  .At{
+    font-size: 300% ;
+    font-family:initial;
+   color:gray;
+    font-weight: 900;
+  }
+
+  .about-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .about-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #787373; /* Adjust color as needed */
+  }
+  
+  .about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .info-item {
+    margin: 25px;
+  }
+  
+  .info-label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #555; /* Adjust color as needed */
+  }
+  
+  .info-value {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #777; /* Adjust color as needed */
+  }
+  
