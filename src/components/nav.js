@@ -28,12 +28,17 @@ export default function Nav(){
           </Link>
           <Link to='/resume' style={{ textDecoration: 'none' }}>
           <Typography variant="h6" component="div" sx={{ margin:'45px',color:'GrayText',fontFamily:'initial'  }}>
-            Resume
+          Skills
           </Typography>
           </Link>
           <Link to='/project' style={{ textDecoration: 'none' }}> 
           <Typography variant="h6" component="div" sx={{ margin:'45px',color:'GrayText',fontFamily:'initial'  }}>
             Project
+          </Typography>
+          </Link>
+          <Link to='/contact' style={{ textDecoration: 'none' }}> 
+          <Typography variant="h6" component="div" sx={{ margin:'45px',color:'GrayText',fontFamily:'initial'  }}>
+           Contact
           </Typography>
           </Link>
         </Toolbar>

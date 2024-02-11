@@ -4,16 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './about.css';
-import Button from 'react-bootstrap/Button';
+
 export default function About(){
-    const handle1 = () => {
     
-        window.open('https://github.com/sriramsri292', '_blank');
-      };
-      const handle2 = () => {
-    
-        window.open('https://www.linkedin.com/in/sri-ram-sriram/', '_blank');
-      };
     return(
         <div> 
             
@@ -28,36 +21,11 @@ export default function About(){
 
         <div className='about-container'>
       <h2 className='about-title'>About Me</h2>
-      <div className='about-info'>
-        <div className='info-item'>
-          <h4 className='info-label'>Name:</h4>
-          <span className='info-value'>Sriram</span>
-        </div>
-        <div className='info-item'>
-          <h4 className='info-label'>Age:</h4>
-          <span className='info-value'>23</span>
-        </div>
-        <div className='info-item'>
-          <h4 className='info-label'>Address:</h4>
-          <span className='info-value'>Dharapuram, Tamil Nadu</span>
-        </div>
-        
-        <div className='info-item'>
-          <h4 className='info-label'>Ph.No:</h4>
-          <span className='info-value'>9629104734</span>
-        </div>
-        <div className='info-item'>
-          <h4 className='info-label'>E-mail:</h4>
-          <span className='info-value'>sriram27435@gmail.com</span>
-        </div>
-        <div className='info-item'>
-          <h4 className='info-label'>GitProfile:</h4>
-          <span className='info-value'>   <Button variant="outline-secondary" onClick={handle1}>Click to Go</Button>{' '}</span>
-        </div>
-        <div className='info-item'>
-          <h4 className='info-label'>Linkdin Profile:</h4>
-          <span className='info-value'>   <Button variant="outline-secondary" onClick={handle2}>Click to Go</Button>{' '}</span>
-        </div>
+      <div> 
+      <h6 className='Rt'>
+  <span>Hello, I'm Sriram <img width="25" height="25" src="https://img.icons8.com/emoji/48/man-technologyst.png" alt="man-technologyst"/></span>, a B.E. Computer Science graduate 🚀 with a strong 7.9 CGPA. Specializing in the MERN stack, I'm a trained and certified Full Stack Developer 💻. With 47 mini projects and 4 full-stack projects in my toolkit, I bring hands-on expertise and a problem-solving mindset to every task. Excited to contribute my skills to innovative web development projects!
+</h6>
+
       </div>
     </div>
         
