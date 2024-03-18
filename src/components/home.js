@@ -18,9 +18,9 @@ export default function Home (){
             <Container>
       <Row>
         <Col xs={6}>
-             <h1 className='Ht'> I am a Full Stack Developer
+             <h1 className='Ht'> I am a Software Developer
               <img width="100" height="100" src="https://img.icons8.com/clouds/100/so-so.png" alt="so-so"/> </h1>
-           <h6 className='Htt'> As Sriram, a dedicated Full Stack Developer, I push technology boundaries to craft exceptional digital experiences<img width="30" height="30" src="https://img.icons8.com/emoji/48/man-technologyst.png" alt="man-technologyst"/></h6>
+           <h6 className='Htt'> As Sriram, a dedicated Software Developer, I push technology boundaries to craft exceptional digital experiences<img width="30" height="30" src="https://img.icons8.com/emoji/48/man-technologyst.png" alt="man-technologyst"/></h6>
         
         
         </Col>
